@@ -3,3 +3,15 @@ git add .
 git commit -m "Test update"
 
 git push origin main
+
+cd path/to/your/flask-app    # go to your project folder
+
+git init                      # initialize Git if you haven't already
+git add .                      # stage all files
+git commit -m "Initial commit - Flask To-Do app"   # commit changes
+
+# Add your GitHub repository as remote
+git remote add origin https://github.com/Samsonsinyinza/flask-app.git
+
+git branch -M main            # rename branch to main (if not already)
+git push -u origin main       # push code to GitHub
